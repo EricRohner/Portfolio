@@ -1,0 +1,90 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/*///////////////////////////////Splash page///////////////////////////////*/
+
+.Sph1 {
+    text-align: center;
+}
+
+.Sph2 {
+    font-size: 20px;
+    margin-bottom: -12px;
+}
+.Spdiv{
+    display: flex;
+    justify-content: center;
+}
+.Spsection {
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Spform {
+    display: flex;
+    align-items: baseline;
+}
+
+.SpAccept {
+    margin: 0px 10px 0px 10px;
+}
+
+/*///////////////////////////////Work History///////////////////////////////*/
+.WhMain{
+    margin-left: 5vw;
+}
+
+.WhTsunami, .WhSnowBird {
+    display: flex;
+}
+
+.WhSnowBirdImg {
+    height:60px;
+    width:60px;
+}
+
+.WhTsunamiImg {
+    height:60px;
+}
+
+/*///////////////////////////////Education///////////////////////////////*/
+.EdMain{
+    margin-left: 5vw;
+}
+
+.EdEvergreen, .EdHelio{
+    display: flex;
+}
+
+.EdEvergreenImg, .EdHelioImg {
+    height:60px;
+    width:60px;
+}
+
+/*///////////////////////////////Contacts///////////////////////////////*/
+
+.CoCard {
+    margin: 5vh 0vw 0vh 5vw;
+    height: 338px;
+    width: 600px;
+    border: 2px solid black;
+    background-image: url("./Contact/Blanche.jpg");
+}
+.Coh2 {
+    margin: 0px 0px 2px 5px;
+}
+.Coh3 {
+    font-size: 15px;
+    margin: 0px 0px 0px 5px;
+}
+

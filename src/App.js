@@ -1,5 +1,7 @@
+// https://build-rmpwbfdtkn.now.sh/
 import React from 'react';
 import "./App.css"
+import "./ComponentStyle.css"
 import Splash from './Splash/Splash';
 import Contact from './Contact/Contact';
 import Education from './Education/Education'
