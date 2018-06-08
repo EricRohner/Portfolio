@@ -1,4 +1,5 @@
 import React from 'react'
+import Maddie from "./Maddie.jpg"
 
 export default class extends React.Component {
 
@@ -12,12 +13,7 @@ export default class extends React.Component {
                     <a href="/contact">Contact</a>
                     <a href="/cat">Cat</a>
                 </header>
-                <main className="CoCard">
-                    <h2 className="Coh2">Eric Rohner</h2>
-                    <h3 className="Coh3">Email: EricRohner22@gmail.com</h3>
-                    <h3 className="Coh3">Phone: (360) 791-5099</h3>
-                </main>
-
+                <img src={Maddie} className="CaMaddie" alt={"Maddie the cat"}/>
             </div>
         )
     }

@@ -1,37 +1,38 @@
 import React from 'react'
-import Outside from "./MuleHollow.jpg"
-import Nitro from "./Crest.jpg"
+import MuleHollow from "./MuleHollow.jpg"
+import Crest from "./Crest.jpg"
 
 export default class extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className="AbAll">
                 <header>
                     <a href="/about">About</a>
                     <a href="/workhistory">Work History</a>
                     <a href="/education">Education</a>
                     <a href="/contact">Contact</a>
+                    <a href="/cat">Cat</a>
                 </header>
                 <main className="AbMain">
                     <h1 className="Abh1">About</h1>
                     <section className="AbClimb">
                         <div className="AbClimbBody">
-                            <img src={Outside} className="Outside" alt={"Outside"}/>
+                            <img src={MuleHollow} className="AbMuleHollow" alt={"MuleHollow"}/>
                             <div className="AbClimbText">
                                 <h2>Summer</h2>
                                 <ul>
-                                    <li>Sport 5.11</li>
-                                    <li>Trad 5.9</li>
-                                    <li>Free Solo 5.8</li>
+                                    <li>Sport 5.11B</li>
+                                    <li>Trad 5.9+</li>
+                                    <li>Free Solo 5.9</li>
                                 </ul>
                             </div>
                         </div>
                     </section>
                     <section className="AbBoard">
                         <div className="AbBoardBody">
-                            <img src={Nitro} className="Nitro" alt={"Nitro"}/>
-                            <div className="BoardText">
+                            <img src={Crest} className="AbCrest" alt={"Crest"}/>
+                            <div className="AbBoardText">
                                 <h2>Winter</h2>
                                 <ul>
                                     <li>Brighton</li>

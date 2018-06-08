@@ -2,15 +2,19 @@ header {
     display: flex;
     justify-content: space-around;
     background-color: black;
-
 }
 
 a {
     color: white;
+    font-size: 20px;
     text-decoration: none;
 }
 
 /*///////////////////////////////   Splash page    ///////////////////////////////*/
+
+.SpMe {
+    height: 500px;
+}
 
 .Sph1 {
     text-align: center;
@@ -21,7 +25,7 @@ a {
     margin-bottom: -12px;
 }
 
-.Spdiv {
+.SpContainer {
     display: flex;
     justify-content: center;
 }
@@ -44,16 +48,12 @@ a {
 
 /*///////////////////////////////   About  ///////////////////////////////*/
 
-.AbMain {
-    margin: 5vh 0vw 0vw 10vw;
-    width: 80vw;
-    border: 2px solid black;
+.Abh1 {
+    background-image: url("./About/City.jpg");
 }
 
-.Abh1 {
-    height: 170px;
-    background-image: url("./About/City.jpg");
-    background-repeat: no-repeat;
+.AbMuleHollow, .AbCrest {
+    border: 2px solid black;
 }
 
 .AbClimbBody, .AbBoardBody {
@@ -61,57 +61,25 @@ a {
     margin: 0px 0px 20px 20px;
 }
 
+.AbClimbText, .AbBoardText {
+    margin-left: 10px;
+}
+
 /*///////////////////////////////   Work History   ///////////////////////////////*/
 
-.WhMain {
-    margin: 5vh 0vw 0vw 10vw;
-    width: 80vw;
-    border: 2px solid black;
-}
-
 .Whh1 {
-    height: 170px;
     background-image: url("./WorkHistory/Sashimi.jpg");
-    background-repeat: no-repeat;
-}
-
-.WhTsunami {
-    display: flex;
-}
-
-.WhSnowBird {
-    display: flex;
-}
-
-.WhSnowBirdImg {
-    height: 60px;
-    width: 60px;
 }
 
 .WhTsunamiImg {
     height: 60px;
+    margin-left: 10px;
 }
 
 /*///////////////////////////////   Education  ///////////////////////////////*/
-.EdMain {
-    margin: 5vh 0vw 0vw 10vw;
-    width: 80vw;
-    border: 2px solid black;
-}
 
 .Edh1 {
     background-image: url("./Education/Idaho.jpg");
-    height: 170px;
-    background-repeat: no-repeat;
-}
-
-.EdEvergreen, .EdHelio {
-    display: flex;
-}
-
-.EdEvergreenImg, .EdHelioImg {
-    height: 60px;
-    width: 60px;
 }
 
 /*///////////////////////////////   Contacts   ///////////////////////////////*/
@@ -133,8 +101,33 @@ a {
     margin: 0px 0px 0px 5px;
 }
 
+/*///////////////////////////////   Cat   ///////////////////////////////*/
+
+.CaMaddie {
+    margin: 5vh 0vw 0vh 5vw;
+    border: 2px solid black;
+}
+
 /*///////////////////////////////   Shared   ///////////////////////////////*/
 
-.EdHelioImg, .EdEvergreenImg, .WhTsunamiImg, .WhSnowBirdImg {
+.AbMain, .WhMain, .EdMain {
+    margin: 5vh 0vw 0vw 10vw;
+    width: 80vw;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.Abh1, .Whh1, .Edh1 {
+    height: 170px;
+    background-repeat: no-repeat;
+}
+
+.WhSnowBirdImg, .EdEvergreenImg, .EdHelioImg {
+    height: 60px;
+    width: 60px;
     margin-left: 10px;
+}
+
+.EdEvergreen, .EdHelio, .WhTsunami, .WhSnowBird {
+    display: flex;
 }

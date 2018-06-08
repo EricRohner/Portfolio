@@ -3,7 +3,6 @@ import helio from './Helio.png';
 import evergreen from './Evergreen.jpg'
 
 export default class extends React.Component {
-
     render() {
         return (
             <div>
@@ -12,6 +11,7 @@ export default class extends React.Component {
                     <a href="/workhistory">Work History</a>
                     <a href="/education">Education</a>
                     <a href="/contact">Contact</a>
+                    <a href="/cat">Cat</a>
                 </header>
                 <main className="EdMain">
                     <h1 className="Edh1">Education</h1>

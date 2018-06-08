@@ -12,6 +12,7 @@ export default class extends React.Component {
                     <a href="/workhistory">Work History</a>
                     <a href="/education">Education</a>
                     <a href="/contact">Contact</a>
+                    <a href="/cat">Cat</a>
                 </header>
                 <main className="WhMain">
                     <h1 className="Whh1">Work History</h1>
