@@ -4,12 +4,13 @@ header {
     background-color: black;
 
 }
+
 a {
     color: white;
     text-decoration: none;
 }
 
-/*///////////////////////////////Splash page///////////////////////////////*/
+/*///////////////////////////////   Splash page    ///////////////////////////////*/
 
 .Sph1 {
     text-align: center;
@@ -19,10 +20,12 @@ a {
     font-size: 20px;
     margin-bottom: -12px;
 }
-.Spdiv{
+
+.Spdiv {
     display: flex;
     justify-content: center;
 }
+
 .Spsection {
     width: 25rem;
     display: flex;
@@ -39,16 +42,36 @@ a {
     margin: 0px 10px 0px 10px;
 }
 
-/*///////////////////////////////Work History///////////////////////////////*/
-.WhMain{
-    margin:5vh 0vw 0vw 10vw;
+/*///////////////////////////////   About  ///////////////////////////////*/
+
+.AbMain {
+    margin: 5vh 0vw 0vw 10vw;
+    width: 80vw;
+    border: 2px solid black;
+}
+
+.Abh1 {
+    height: 170px;
+    background-image: url("./About/City.jpg");
+    background-repeat: no-repeat;
+}
+
+.AbClimbBody, .AbBoardBody {
+    display: flex;
+    margin: 0px 0px 20px 20px;
+}
+
+/*///////////////////////////////   Work History   ///////////////////////////////*/
+
+.WhMain {
+    margin: 5vh 0vw 0vw 10vw;
     width: 80vw;
     border: 2px solid black;
 }
 
 .Whh1 {
     height: 170px;
-    background-image: url("./WorkHistory/Sashimi3.jpg");
+    background-image: url("./WorkHistory/Sashimi.jpg");
     background-repeat: no-repeat;
 }
 
@@ -61,38 +84,37 @@ a {
 }
 
 .WhSnowBirdImg {
-    height:60px;
-    width:60px;
+    height: 60px;
+    width: 60px;
 }
 
 .WhTsunamiImg {
-    height:60px;
+    height: 60px;
 }
 
-/*///////////////////////////////Education///////////////////////////////*/
-.EdMain{
-    margin:5vh 0vw 0vw 10vw;
+/*///////////////////////////////   Education  ///////////////////////////////*/
+.EdMain {
+    margin: 5vh 0vw 0vw 10vw;
     width: 80vw;
     border: 2px solid black;
 }
 
-.Edh1{
-    /*margin-top: 0vh;*/
+.Edh1 {
     background-image: url("./Education/Idaho.jpg");
     height: 170px;
     background-repeat: no-repeat;
 }
 
-.EdEvergreen, .EdHelio{
+.EdEvergreen, .EdHelio {
     display: flex;
 }
 
 .EdEvergreenImg, .EdHelioImg {
-    height:60px;
-    width:60px;
+    height: 60px;
+    width: 60px;
 }
 
-/*///////////////////////////////Contacts///////////////////////////////*/
+/*///////////////////////////////   Contacts   ///////////////////////////////*/
 
 .CoCard {
     margin: 5vh 0vw 0vh 5vw;
@@ -101,11 +123,18 @@ a {
     border: 2px solid black;
     background-image: url("./Contact/Blanche.jpg");
 }
+
 .Coh2 {
     margin: 0px 0px 2px 5px;
 }
+
 .Coh3 {
     font-size: 15px;
     margin: 0px 0px 0px 5px;
 }
 
+/*///////////////////////////////   Shared   ///////////////////////////////*/
+
+.EdHelioImg, .EdEvergreenImg, .WhTsunamiImg, .WhSnowBirdImg {
+    margin-left: 10px;
+}
