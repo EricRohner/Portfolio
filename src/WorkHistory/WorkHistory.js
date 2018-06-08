@@ -13,7 +13,8 @@ export default class extends React.Component{
                     <a href="/contact">Contact</a>
                 </header>
                 <main className="WhMain">
-                <h1>Work History</h1>
+                <h1 className="Whh1">Work History</h1>
+                    {/*<img src={Sashimi} className="WhSashimi" alt="sashimi" />*/}
                 <div className="WhTsunami">
                 <img src={Tsunami} className="WhTsunamiImg" alt="Tsunami" />
                 <h2>Tsunami Sushi Bar 2015-2018</h2>
@@ -31,7 +32,7 @@ export default class extends React.Component{
                     <li>Line cook</li>
                     <li>Trainer</li>
                     <li>Expediter and co-ordinator between multiple stations</li>
-                    <li>Fine dining experience including baking, sauce preparation and dish presentation</li>
+                    <li>Fine dining including baking, sauce preparation and dish presentation</li>
                 </ul>
                 </main>
             </div>

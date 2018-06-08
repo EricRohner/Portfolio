@@ -13,7 +13,7 @@ export default class extends React.Component{
                     <a href="/contact">Contact</a>
                 </header>
                 <main className="EdMain">
-                <h1>Education</h1>
+                <h1 className="Edh1">Education</h1>
                 <div className="EdHelio">
                 <img src={helio} className="EdHelioImg" alt="helio" />
                 <h2>Helio</h2>

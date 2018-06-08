@@ -41,10 +41,22 @@ a {
 
 /*///////////////////////////////Work History///////////////////////////////*/
 .WhMain{
-    margin-left: 5vw;
+    margin:5vh 0vw 0vw 10vw;
+    width: 80vw;
+    border: 2px solid black;
 }
 
-.WhTsunami, .WhSnowBird {
+.Whh1 {
+    height: 170px;
+    background-image: url("./WorkHistory/Sashimi3.jpg");
+    background-repeat: no-repeat;
+}
+
+.WhTsunami {
+    display: flex;
+}
+
+.WhSnowBird {
     display: flex;
 }
 
@@ -59,7 +71,16 @@ a {
 
 /*///////////////////////////////Education///////////////////////////////*/
 .EdMain{
-    margin-left: 5vw;
+    margin:5vh 0vw 0vw 10vw;
+    width: 80vw;
+    border: 2px solid black;
+}
+
+.Edh1{
+    /*margin-top: 0vh;*/
+    background-image: url("./Education/Idaho.jpg");
+    height: 170px;
+    background-repeat: no-repeat;
 }
 
 .EdEvergreen, .EdHelio{
