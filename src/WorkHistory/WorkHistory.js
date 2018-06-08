@@ -1,19 +1,14 @@
 import React from 'react'
 import Tsunami from './Tsunami.png'
 import SnowBird from './SnowBird.gif'
+import Header from '../Header'
 
 export default class extends React.Component {
 
     render() {
         return (
             <div>
-                <header>
-                    <a href="/about">About</a>
-                    <a href="/workhistory">Work History</a>
-                    <a href="/education">Education</a>
-                    <a href="/contact">Contact</a>
-                    <a href="/cat">Cat</a>
-                </header>
+                <Header />
                 <main className="WhMain">
                     <h1 className="Whh1">Work History</h1>
                     <div className="WhTsunami">

@@ -1,18 +1,13 @@
 import React from 'react'
 import helio from './Helio.png';
 import evergreen from './Evergreen.jpg'
+import Header from '../Header'
 
 export default class extends React.Component {
     render() {
         return (
             <div>
-                <header>
-                    <a href="/about">About</a>
-                    <a href="/workhistory">Work History</a>
-                    <a href="/education">Education</a>
-                    <a href="/contact">Contact</a>
-                    <a href="/cat">Cat</a>
-                </header>
+                <Header />
                 <main className="EdMain">
                     <h1 className="Edh1">Education</h1>
                     <div className="EdHelio">

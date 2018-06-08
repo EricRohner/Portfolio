@@ -21,7 +21,7 @@ export default class extends React.Component {
                                onChange={event => this.setState({accept: event.target.checked})}/>
                         <p className="SpAccept">Accept</p>
                         <Link to="/about">
-                            <button type="submit" name="submit" hidden={!this.state.accept}>Continue</button>
+                            <button type="submit" name="submit" hidden={!this.state.accept} onClick={this.props.headHandler}>Continue</button>
                         </Link>
                     </form>
                 </section>

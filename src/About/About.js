@@ -1,19 +1,13 @@
 import React from 'react'
 import MuleHollow from "./MuleHollow.jpg"
 import Crest from "./Crest.jpg"
-
+import Header from '../Header'
 export default class extends React.Component {
 
     render() {
         return (
             <div className="AbAll">
-                <header>
-                    <a href="/about">About</a>
-                    <a href="/workhistory">Work History</a>
-                    <a href="/education">Education</a>
-                    <a href="/contact">Contact</a>
-                    <a href="/cat">Cat</a>
-                </header>
+                <Header />
                 <main className="AbMain">
                     <h1 className="Abh1">About</h1>
                     <section className="AbClimb">
