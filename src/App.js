@@ -30,9 +30,9 @@ export default class extends React.Component {
         return (
             <div>
 
-                <div hidden={this.state.hide}>
-                    <Header/>
-                </div>
+                {/*<div hidden={this.state.hide}>*/}
+                    {/*<Header/>*/}
+                {/*</div>*/}
                 <Routes headHandler={this.headHandler}/>
             </div>
         )
